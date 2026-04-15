@@ -1,4 +1,9 @@
 streamlit
 ccxt
 requests
-pandas
+pandasimport streamlit as st
+
+st.title("روبوت التداول الخاص بي")
+st.write("أهلاً بك في تطبيق التداول الذكي")
+st.button("بدأ التداول")
+
